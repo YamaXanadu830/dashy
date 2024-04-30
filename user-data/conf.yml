@@ -16,7 +16,7 @@ appConfig:
   statusCheckInterval: 0
   faviconApi: allesedv
   layout: auto
-  iconSize: medium
+  iconSize: small
   routingMode: history
   enableMultiTasking: false
   widgetsAlwaysUseProxy: false
@@ -151,7 +151,7 @@ sections:
         icon: https://api.iowen.cn/favicon/app.tea.xyz.png
         url: https://app.tea.xyz/
         target: newtab
-        id: 3_41922_tea
+        id: 3_41922_teaprotocol
       - &ref_11
         title: Supra
         icon: https://api.iowen.cn/favicon/supra.com.png
@@ -164,6 +164,7 @@ sections:
       - *ref_9
       - *ref_10
       - *ref_11
+    icon: fad fa-tools
   - name: 节点 Nodes
     displayData:
       sortBy: default
@@ -174,6 +175,43 @@ sections:
     items: []
     filteredItems: []
   - name: L2 Chains
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items: []
+    filteredItems: []
+  - name: Bera Chain
+    icon: https://api.iowen.cn/favicon/berachain.com.png/
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - &ref_12
+        title: Bera  ECO System
+        id: 0_893_beraecosystem
+      - &ref_13
+        title: Bex
+        description: ''
+        icon: https://api.iowen.cn/favicon/artio.bex.berachain.com.png
+        url: https://artio.bex.berachain.com/
+        id: 1_893_bex
+      - &ref_14
+        title: faucet berachain
+        icon: https://api.iowen.cn/favicon/artio.faucet.berachain.com.png
+        url: https://artio.faucet.berachain.com/
+        target: newtab
+        id: 2_893_faucetberachain
+    filteredItems:
+      - *ref_12
+      - *ref_13
+      - *ref_14
+  - name: Fuel Chain
     displayData:
       sortBy: default
       rows: 1
