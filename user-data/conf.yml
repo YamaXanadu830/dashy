@@ -2,8 +2,8 @@ pageInfo:
   title: 小目标
   description: 不要懒，撸起来
   navLinks:
-    - title: GitHub
-      path: https://github.com/Lissy93/dashy
+    - title: 旧主页
+      path: https://rebeka.love/
       target: newtab
     - title: Documentation
       path: https://dashy.to/docs
@@ -52,6 +52,7 @@ appConfig:
   disableUpdateChecks: false
   disableSmartSort: false
   enableErrorReporting: false
+  defaultIcon: https://api.iowen.cn/favicon/www.iowen.cn.png
 sections:
   - name: 链上工具
     icon: far fa-tools
@@ -66,28 +67,28 @@ sections:
       - &ref_1
         title: CoinTool
         description: 链上工具
-        icon: cointool.app.ico
+        icon: https://api.iowen.cn/favicon/cointool.app.png
         url: https://cointool.app/
         target: newtab
         id: 1_103012_cointool
       - &ref_2
         title: Dex交易聚合
         description: Configuring & Usage Documentation
-        icon: defillama.com.ico
+        icon: https://api.iowen.cn/favicon/swap.defillama.com.png
         url: https://swap.defillama.com/
         target: newtab
         id: 2_103012_dex
       - &ref_3
         title: DexScreener
         description: DEX聚合
-        icon: dexscreener.com.ico
+        icon: https://api.iowen.cn/favicon/dexscreener.com.png
         url: https://dexscreener.com/
         target: newtab
         id: 3_103012_dexscreener
       - &ref_4
         title: Rubic 跨链聚合
         description: 跨链聚合
-        icon: rubic.exchange.ico
+        icon: https://api.iowen.cn/favicon/app.rubic.exchange.png
         url: https://app.rubic.exchange/
         target: newtab
         id: 4_103012_rubic
@@ -101,7 +102,7 @@ sections:
       - &ref_6
         title: DiTing链上监控
         description: 检测链上聪明钱，token
-        icon: diting.ai.ico
+        icon: https://api.iowen.cn/favicon/pc.diting.ai.png
         url: https://pc.diting.ai/
         target: newtab
         id: 6_103012_diting
@@ -119,3 +120,65 @@ sections:
       - *ref_4
       - *ref_5
       - *ref_6
+  - name: 任务 Tasks
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - &ref_7
+        title: Caldera
+        icon: https://api.iowen.cn/favicon/www.caldera.xyz.png
+        url: https://www.caldera.xyz/
+        target: newtab
+        id: 0_41922_caldera
+      - &ref_8
+        title: RedStone
+        icon: https://api.iowen.cn/favicon/redstone.finance.png
+        url: https://redstone.finance/
+        target: newtab
+        id: 1_41922_redstone
+      - &ref_9
+        title: Burnt（XION）
+        icon: https://api.iowen.cn/favicon/xion.burnt.com.png
+        url: https://xion.burnt.com/
+        target: newtab
+        id: 2_41922_burntxion
+      - &ref_10
+        title: tea Protocol
+        icon: https://api.iowen.cn/favicon/app.tea.xyz.png
+        url: https://app.tea.xyz/
+        target: newtab
+        id: 3_41922_tea
+      - &ref_11
+        title: Supra
+        icon: https://api.iowen.cn/favicon/supra.com.png
+        url: https://supra.com/
+        target: newtab
+        id: 4_41922_supra
+    filteredItems:
+      - *ref_7
+      - *ref_8
+      - *ref_9
+      - *ref_10
+      - *ref_11
+  - name: 节点 Nodes
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items: []
+    filteredItems: []
+  - name: L2 Chains
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items: []
+    filteredItems: []
